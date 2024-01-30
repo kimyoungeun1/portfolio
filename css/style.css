@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+p.go{text-align:right; 
+	background-color: #F6F6F6;
+}
+h1{text-align: center;}
+
+*{padding:0;margin:0}
+li{list-style:none}
+a{text-decoration:none;font-size:14px}
+
+
+.menu {
+  overflow: hidden;
+  margin: 150px auto;
+}
+
+.menu > li {
+  width: 10%; /*20*5=100%*/
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  background-color: #3185C1;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.submenu > li {
+  line-height: 50px;
+  background-color: #94a9ff;
+}
+
+.submenu {
+  height: 0; /*ul의 높이를 안보이게 처리*/
+  overflow: hidden;
+}
+				
+main>section{text-indent: -9999px;}
+
+main>section.visual{
+   height: 2500px;
+   background-color: #c4ddf3;
+   background-image: url("./../images/그림3.jpg");  
+   background-position: left;
+   background-repeat: no-repeat;
+}
+
+footer{
+   padding: 30px 0;
+   border-top: 1px solid #d9d9d9;
+}
+
+footer>address{
+   line-height: 25px;
+   text-align: center;
+}
+
