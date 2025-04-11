@@ -1,130 +1,200 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
-   <meta charset="UTF-8" />
-   <title>html5</title>
-   <link rel="stylesheet" href="./css/reset.css" />
-   <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUST쇼핑몰</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
-   <div id="wrap">
-       <p class="go">홈으로               사이트맵</p>
-      	
-      <h1><img src="./images/그림2.gif" alt="#" /></h1>
-       <nav>
-         <ul class="menu">
-      		<li>
-        		<a href="#">경기도</a>
-        <ul class="submenu">
-          	<li><a href="#">submenu01</a></li>
-          	<li><a href="#">submenu02</a></li>
-          	<li><a href="#">submenu03</a></li>
-          	<li><a href="#">submenu04</a></li>
-          	<li><a href="#">submenu05</a></li>
-       </ul>
-      </li>
-      <li>
-        <a href="#">강원도</a>
-     <ul class="submenu">
-        <li><a href="#">submenu01</a></li>
-        <li><a href="#">submenu02</a></li>
-        <li><a href="#">submenu03</a></li>
-        <li><a href="#">submenu04</a></li>
-        <li><a href="#">submenu05</a></li>
-      </ul>
-    </li>
-      <li>
-        <a href="#">충청북도</a>
-        <ul class="submenu">
-          <li><a href="#">submenu01</a></li>
-          <li><a href="#">submenu02</a></li>
-          <li><a href="#">submenu03</a></li>
-          <li><a href="#">submenu04</a></li>
-          <li><a href="#">submenu05</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">충청남도</a>
-        <ul class="submenu">
-          <li><a href="#">submenu01</a></li>
-          <li><a href="#">submenu02</a></li>
-          <li><a href="#">submenu03</a></li>
-          <li><a href="#">submenu04</a></li>
-          <li><a href="#">submenu05</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">전라북도</a>
-        <ul class="submenu">
-          <li><a href="#">submenu01</a></li>
-          <li><a href="#">submenu02</a></li>
-          <li><a href="#">submenu03</a></li>
-          <li><a href="#">submenu04</a></li>
-          <li><a href="#">submenu05</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">전라남도</a>
-        <ul class="submenu">
-          <li><a href="#">submenu01</a></li>
-          <li><a href="#">submenu02</a></li>
-          <li><a href="#">submenu03</a></li>
-          <li><a href="#">submenu04</a></li>
-          <li><a href="#">submenu05</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">경상북도</a>
-        <ul class="submenu">
-          <li><a href="#">submenu01</a></li>
-          <li><a href="#">submenu02</a></li>
-          <li><a href="#">submenu03</a></li>
-          <li><a href="#">submenu04</a></li>
-          <li><a href="#">submenu05</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">경상남도</a>
-        <ul class="submenu">
-          <li><a href="#">submenu01</a></li>
-          <li><a href="#">submenu02</a></li>
-          <li><a href="#">submenu03</a></li>
-          <li><a href="#">submenu04</a></li>
-          <li><a href="#">submenu05</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">제주도</a>
-        <ul class="submenu">
-          <li><a href="#">submenu01</a></li>
-          <li><a href="#">submenu02</a></li>
-          <li><a href="#">submenu03</a></li>
-          <li><a href="#">submenu04</a></li>
-          <li><a href="#">submenu05</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">울릉도와 독도</a>
-        <ul class="submenu">
-          <li><a href="#">submenu01</a></li>
-          <li><a href="#">submenu02</a></li>
-          <li><a href="#">submenu03</a></li>
-          <li><a href="#">submenu04</a></li>
-          <li><a href="#">submenu05</a></li>
-        </ul>
-      </li>
-      
-     <main>
-       <section class="visual">비주얼영역</section>
-       <section>
-            <h3>독도현황</h3>
-       </section>
-     </main>
-     <footer>
-         <address>
-                Copyright ZEROSILVER
-         </address>
-     </footer>
-   </div>
+    <div class="wrap">
+        <div class="inner">
+            <header>
+                <h1><a href="#"><img src="img/logo.png" alt="JUST쇼핑몰"></a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">탑</a>
+                            <ul class="sub">
+                                <li><a href="#">블라우스</a></li>
+                                <li><a href="#">티</a></li>
+                                <li><a href="#">셔츠</a></li>
+                                <li><a href="#">니트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">아우터</a>
+                            <ul class="sub">
+                                <li><a href="#">자켓</a></li>
+                                <li><a href="#">코트</a></li>
+                                <li><a href="#">가디건</a></li>
+                                <li><a href="#">머플러</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">팬츠</a>
+                            <ul class="sub">
+                                <li><a href="#">청바지</a></li>
+                                <li><a href="#">짧은바지</a></li>
+                                <li><a href="#">긴바지</a></li>
+                                <li><a href="#">레깅스</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">악세서리</a>
+                            <ul class="sub">
+                                <li><a href="#">귀고리</a></li>
+                                <li><a href="#">목걸이</a></li>
+                                <li><a href="#">반지</a></li>
+                                <li><a href="#">팔찌</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="slide">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/s1.jpg" alt="슬라이드1">
+                            <h2>첫 구매 고객에게 드리는 혜택!</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/s2.jpg" alt="슬라이드2">
+                            <h2>스토어 찜 고객에게 드리는 혜택!</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/s3.jpg" alt="슬라이드3">
+                            <h2>소식 알림 동의 고객에게 드리는 혜택!</h2>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <div class="con">
+                <article class="con1">
+                    <ul class="tabmenu">
+                        <li class="on"><h2><a href="#">공지사항</a></h2>
+                            <div class="notice tabcon">
+                                <table>
+                                    <tr>
+                                        <th><a href="#" class="pp">회원가입 시 적립금 할인쿠폰</a></th>
+                                        <td>2032-07-12</td>
+                                    </tr>
+                                    <tr>
+                                        <th><a href="#">교환 및 반품안내</a></th>
+                                        <td>2032-04-29</td>
+                                    </tr>
+                                    <tr>
+                                        <th><a href="#">문의글에 대한 답변안내</a></th>
+                                        <td>2032-03-12</td>
+                                    </tr>
+                                    <tr>
+                                        <th><a href="#">주문상품 발송안내</a></th>
+                                        <td>2032-01-29</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li><h2><a href="#">갤러리</a></h2>
+                            <div class="gall tabcon">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="img/g1.jpg" alt="갤러리1">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="img/g2.jpg" alt="갤러리2">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="img/g3.jpg" alt="갤러리3">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </article>
+                <article class="con2">
+                    <h2><a href="#">배너</a></h2>
+                    <a href="#">
+                        <div>
+                            <h3>회원가입 시 적립금 + 할인쿠폰</h3>
+                            <h4>혜택1. 상품구매금액의 1프로 적립</h4>
+                            <h5>혜택2. 7만원 이상 구매시 무료 배송</h5>
+                            <h6>혜택3. 생일축하 7%할인쿠폰</h6>
+                            <p>*쿠폰은 자동발급이 아니라 꼭 다운받으셔야해요!</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="con3">
+                    <h2><a href="#">바로가기</a></h2>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="img/icon01.png" alt="출석체크">
+                                <h3>출석체크</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/icon02.png" alt="배송조회">
+                                <h3>배송조회</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/icon03.png" alt="즐겨찾기">
+                                <h3>즐겨찾기</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <footer>
+                <div class="flogo">
+                    <h1><a href="#"><img src="img/flogo.png" alt="JUST쇼핑몰"></a></h1>
+                </div>
+                <ul class="fsns">
+                    <li>
+                        <a href="#">
+                            <img src="img/sns1.png" alt="네이버">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/sns2.png" alt="페이스북">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/sns3.png" alt="유튜브">
+                        </a>
+                    </li>
+                </ul>
+                <p class="fcopy">
+                    It is a long established fact that a reader will be distracted<br>
+                    Copyright 2024. leeminiclass All rights reserved.
+                </p>
+            </footer>
+        </div>
+        <div class="popup">
+            <h2>여름휴가안내</h2>
+            <p class="img">
+                <img src="img/pop.jpg" alt="여름휴가안내">
+            </p>
+            <strong>8월 3일(월) ~ 8월 5일(수)</strong>
+            <p class="txt">
+                위와 같은 일정으로 휴가를 실시합니다.<br>
+                더 좋은 모습으로 찾아뵙겠습니다.
+            </p>
+            <p class="button"><button>CLOSE X</button></p>
+        </div>
+    </div>
 </body>
 </html>
